@@ -9,11 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> OMAR B&F </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Migency HTML 5 Template " />
+    <meta name="description" content="OMAR B" />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -49,7 +47,7 @@
     <link rel="stylesheet" href="assets/css/migency-responsive.css" />
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".main-header" data-bs-offset="70">
 
 
 
@@ -74,8 +72,7 @@
                         <div class="main-menu__wrapper-inner">
                             <div class="main-menu__left">
                                 <div class="main-menu__logo">
-                                    <a href="index.html" class="banner-one__title" style="font-size: 20px;text-decoration:none">
-                                        <img src="assets/images/favicons/favicon-32x32.png" alt="" class="mx-3" />OMAR B&F</a>
+                                    <a href="#home"><img src="images/IMG-20230609-WA0000_1.jpg" width="200" height="50" alt=""></a>
                                 </div>
                             </div>
                             <div class="main-menu__right">
@@ -83,19 +80,23 @@
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
                                         <li class="">
-                                            <a href="index.html">Home </a>
+                                            <a href="#home">Home </a>
 
                                         </li>
                                         <li>
-                                            <a href="about.html">About</a>
+                                            <a href="#about">About</a>
                                         </li>
 
                                         <li class="">
-                                            <a href="#">Services</a>
+                                            <a href="#service">Services</a>
 
                                         </li>
                                         <li class="">
-                                            <a href="#">Portfolio</a>
+                                            <a href="#portfolio">Portfolio</a>
+
+                                        </li>
+                                        <li class="">
+                                            <a href="#faq">FAQS</a>
 
                                         </li>
 
@@ -127,7 +128,7 @@
 
 
             <!--Banner One Start-->
-            <section class="banner-one">
+            <section class="banner-one" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-6">
@@ -169,7 +170,7 @@
                             <div class="banner-one__right">
                                 <div class="banner-one__img-box">
                                     <div class="banner-one__img wow fadeInUp" data-wow-delay="100ms">
-                                        <img src="assets/images/resources/banner-one-img-1.jpg" alt="">
+                                        <img src="images/IMG_5387.jpg" alt="">
                                     </div>
                                     <div class="banner-one__img-two wow fadeInUp" data-wow-delay="300ms">
                                         <img src="assets/images/resources/banner-one-img-2.jpg" alt="">
@@ -187,7 +188,7 @@
         </div>
 
         <!--Quote One Start-->
-        <section class="quote-one">
+        <section class="quote-one d-none d-lg-block" id="about">
             <div class="quote-one__inner">
                 <ul class="list-unstyled quote-one__quote-list">
                     <li>
@@ -230,7 +231,7 @@
         <!--Quote One End-->
 
         <!--About One Start-->
-        <section class="about-one">
+        <section class="about-one" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5">
@@ -420,7 +421,7 @@
 
 
         <!--Services One Start-->
-        <section class="services-one">
+        <section class="services-one" id="service">
             <div class="services-one__shape-1 float-bob-x">
                 <img src="assets/images/shapes/services-one-shape-1.png" alt="">
             </div>
@@ -455,7 +456,7 @@
                             <h3 class="services-one__title"><a href="services-details.html">Branding Services</a></h3>
                             <p class="services-one__text">Unleash your brand's potential with our exceptional branding.</p>
                             <div class="services-one__arrow-box">
-                                <a href="services-details.html" class="services-one__arrow"><span
+                                <a href="#" class="services-one__arrow"><span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -528,7 +529,7 @@
         <!--Services One End-->
 
         <!--Why Choose One Start-->
-        <section class="why-choose-one ">
+        <section class="why-choose-one" id="service">
             <div class="why-choose-one__shape-1 float-bob-x ">
                 <img src="assets/images/shapes/why-choose-one-shape-1.png " alt=" ">
             </div>
@@ -606,7 +607,7 @@
         <!--Why Choose One End-->
 
         <!--Project One Start-->
-        <section class="project-three">
+        <section class="project-three" id="portfolio">
             <div class="container">
                 <div class="section-title text-center">
                     <div class="section-title__tagline-box">
@@ -682,7 +683,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 filter-item design  web graphics masonary-item">
                         <div class="project-three__single">
                             <div class="project-three__img">
-                                <img src="images/screencapture-giftcards-jaan-ng-2023-06-09-00_32_39.png" alt="">
+                                <img src="images/new.png" alt="">
                                 <div class="project-three__content">
                                     <p class="project-three_sub-title"></p>
                                     <h3 class="project-three__title"><a href="https://www.giftcards.jaan.ng">Jaan (Giftcard Purchase)</a>
@@ -705,7 +706,7 @@
 
 
         <!--FAQ One Start-->
-        <section class="faq-one">
+        <section class="faq-one" id="faq">
             <div class="container p-5">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
@@ -802,8 +803,7 @@
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget-three__about">
                                 <div class="site-footer-three__logo">
-                                    <a href="index.html" class="banner-one__title" style="font-size: 20px;text-decoration:none">
-                                        <img src="assets/images/favicons/favicon-32x32.png" alt="" class="mx-3" />OMAR B&F</a>
+                                    <a href="#home"><img src="images/IMG-20230609-WA0000_1.jpg" width="200" height="50" alt=""></a>
                                 </div>
                                 <p class="footer-widget-three__about-text">
                                     We help you navigate the complexities of your industry with our tailored consulting soluutions.
@@ -827,7 +827,9 @@
                                 <div class="footer-widget-three__title-box">
                                     <h3 class="footer-widget-three__title">Contact</h3>
                                 </div>
-
+                                <p class="footer-widget-three__contact-text">
+                                    1, Akparorovre Street, Evbaubogun Road, Off Sapele Road,<br>Benin City, Edo State, Nigeria
+                                </p>
                                 <p class="footer-widget-three__contact-info">
                                     <a href="mailto:omarb&fconsult@gmail.com">omarb&fconsult@gmail.com</a>
                                     <br>
@@ -877,7 +879,7 @@
             <div class="logo-box">
                 <div class="main-menu__logo">
                     <a href="index.html" class="banner-one__title" style="font-size: 20px;text-decoration:none">
-                        <img src="assets/images/favicons/favicon-32x32.png" alt="" class="mx-3" />OMAR B&F</a>
+                        <a href="#home"><img src="images/IMG-20230609-WA0000_1.jpg" width="200" height="50" alt=""></a>
                 </div>
             </div>
             <!-- /.logo-box -->
